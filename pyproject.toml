@@ -14,6 +14,7 @@ authors = [
 ]
 dependencies = [
     "ophix-creds",
+    "ophix-lang-fr-server-base",
 ]
 
 [tool.setuptools.packages.find]

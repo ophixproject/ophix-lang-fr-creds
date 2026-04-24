@@ -39,39 +39,3 @@ msgstr "Clients autorisés"
 #: src/ophix_creds/admin.py
 msgid "Notes"
 msgstr "Notes"
-
-#: src/ophix/core/models.py
-msgid "Deployment reference (repository name or similar identifier)"
-msgstr "Référence de déploiement (nom du dépôt ou identifiant similaire)"
-
-#: src/ophix/core/models.py
-msgid "Name of the Python virtual environment"
-msgstr "Nom de l'environnement virtuel Python"
-
-#: src/ophix/core/models.py
-msgid "Absolute path to the Python virtual environment"
-msgstr "Chemin absolu vers l'environnement virtuel Python"
-
-#: src/ophix/core/models.py
-msgid "Client can read this artifact (can_read)."
-msgstr "Le client peut lire cet artefact (peut_lire)."
-
-#: src/ophix/core/models.py
-msgid "Client may overwrite this artifact."
-msgstr "Le client peut écraser cet artefact."
-
-#: src/ophix/core/models.py
-msgid "Client may delete this artifact."
-msgstr "Le client peut supprimer cet artefact."
-
-#: src/ophix/core/models.py
-msgid "Reserved: future client-driven sharing. Currently unused."
-msgstr "Réservé : partage futur à l'initiative du client. Actuellement inutilisé."
-
-#: src/ophix/core/admin.py
-msgid "Deployment"
-msgstr "Déploiement"
-
-#: src/ophix/core/admin.py
-msgid "Token"
-msgstr "Jeton"
