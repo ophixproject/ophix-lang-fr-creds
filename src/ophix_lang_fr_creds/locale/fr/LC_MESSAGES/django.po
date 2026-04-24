@@ -1,0 +1,77 @@
+# French translation for ophix-creds
+# Copyright (C) 2026 Ophix Project
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ophix-creds 2026.04.24.01\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-24 00:00+0000\n"
+"PO-Revision-Date: 2026-04-24 00:00+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: src/ophix_creds/apps.py
+msgid "Credentials"
+msgstr "Identifiants"
+
+#: src/ophix_creds/admin.py
+msgid "Credential"
+msgstr "Identifiant"
+
+#: src/ophix_creds/admin.py
+msgid "Client"
+msgstr "Client"
+
+#: src/ophix_creds/admin.py
+msgid "Authorised Credentials"
+msgstr "Identifiants autorisés"
+
+#: src/ophix_creds/admin.py
+msgid "Authorised Clients"
+msgstr "Clients autorisés"
+
+#: src/ophix_creds/admin.py
+msgid "Notes"
+msgstr "Notes"
+
+#: src/ophix/core/models.py
+msgid "Deployment reference (repository name or similar identifier)"
+msgstr "Référence de déploiement (nom du dépôt ou identifiant similaire)"
+
+#: src/ophix/core/models.py
+msgid "Name of the Python virtual environment"
+msgstr "Nom de l'environnement virtuel Python"
+
+#: src/ophix/core/models.py
+msgid "Absolute path to the Python virtual environment"
+msgstr "Chemin absolu vers l'environnement virtuel Python"
+
+#: src/ophix/core/models.py
+msgid "Client can read this artifact (can_read)."
+msgstr "Le client peut lire cet artefact (peut_lire)."
+
+#: src/ophix/core/models.py
+msgid "Client may overwrite this artifact."
+msgstr "Le client peut écraser cet artefact."
+
+#: src/ophix/core/models.py
+msgid "Client may delete this artifact."
+msgstr "Le client peut supprimer cet artefact."
+
+#: src/ophix/core/models.py
+msgid "Reserved: future client-driven sharing. Currently unused."
+msgstr "Réservé : partage futur à l'initiative du client. Actuellement inutilisé."
+
+#: src/ophix/core/admin.py
+msgid "Deployment"
+msgstr "Déploiement"
+
+#: src/ophix/core/admin.py
+msgid "Token"
+msgstr "Jeton"
