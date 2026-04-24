@@ -1,10 +1,12 @@
 # ophix-lang-fr-creds
 
+> Pack de traduction française pour ophix-creds.
+
 French translation pack for [ophix-creds](https://ophix.io).
 
 ## Install
 
-```
+```bash
 pip install ophix-lang-fr-creds
 ```
 
