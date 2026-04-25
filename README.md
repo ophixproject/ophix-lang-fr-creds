@@ -16,3 +16,8 @@ Then set `LANGUAGE_CODE = "fr"` (or `"fr-fr"`) in your server `.env`.
 
 - Admin UI strings: app name, inline labels, column headers, fieldset titles
 - Help text strings from `ophix-server-base` (ClientArtifactBase fields)
+
+## Documentation
+
+- [Identifiants](src/ophix_lang_fr_creds/docs/credentials.md)
+- [Mise à niveau depuis l'ancien credserver](src/ophix_lang_fr_creds/docs/legacy-upgrade.md)
