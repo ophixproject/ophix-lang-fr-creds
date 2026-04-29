@@ -8,11 +8,15 @@ class OphixLangFrCredsConfig(AppConfig):
 
     def ready(self):
         from django.db.models.signals import post_migrate
-        post_migrate.connect(_import_docs, sender=self)
+        from django.apps import apps
+        try:
+            sender = apps.get_app_config("ophix_docs")
+            post_migrate.connect(_import_docs, sender=sender)
+        except LookupError:
+            pass
 
 
 def _import_docs(sender, **kwargs):
-    """Auto-import French translated docs after migration."""
     try:
         from django.core.management import call_command
         call_command(

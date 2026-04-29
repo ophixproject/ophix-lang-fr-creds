@@ -1,13 +1,12 @@
 # French translation for ophix-creds
 # Copyright (C) 2026 Ophix Project
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: ophix-creds 2026.04.24.01\n"
+"Project-Id-Version: ophix-creds 2026.04.29.01\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-24 00:00+0000\n"
-"PO-Revision-Date: 2026-04-24 00:00+0000\n"
+"POT-Creation-Date: 2026-04-29 00:00+0000\n"
+"PO-Revision-Date: 2026-04-29 00:00+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -16,11 +15,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: src/ophix_creds/apps.py
+#: src/ophix_creds/apps.py src/ophix_creds/models.py
 msgid "Credentials"
 msgstr "Identifiants"
 
-#: src/ophix_creds/admin.py
+#: src/ophix_creds/admin.py src/ophix_creds/models.py
 msgid "Credential"
 msgstr "Identifiant"
 
@@ -36,6 +35,38 @@ msgstr "Identifiants autorisés"
 msgid "Authorised Clients"
 msgstr "Clients autorisés"
 
-#: src/ophix_creds/admin.py
+#: src/ophix_creds/admin.py src/ophix_creds/models.py
 msgid "Notes"
 msgstr "Notes"
+
+#: src/ophix_creds/models.py
+msgid "name"
+msgstr "nom"
+
+#: src/ophix_creds/models.py
+msgid "description"
+msgstr "description"
+
+#: src/ophix_creds/models.py
+msgid "secret JSON"
+msgstr "JSON secret"
+
+#: src/ophix_creds/models.py
+msgid "enabled"
+msgstr "activé"
+
+#: src/ophix_creds/models.py
+msgid "updated at"
+msgstr "mis à jour le"
+
+#: src/ophix_creds/models.py
+msgid "credential"
+msgstr "identifiant"
+
+#: src/ophix_creds/models.py
+msgid "Client Credential"
+msgstr "Identifiant client"
+
+#: src/ophix_creds/models.py
+msgid "Client Credentials"
+msgstr "Identifiants clients"
