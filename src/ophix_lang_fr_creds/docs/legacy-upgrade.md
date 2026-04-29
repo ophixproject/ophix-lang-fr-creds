@@ -1,7 +1,7 @@
 ---
 title: Mise à niveau depuis l'ancien credserver
 slug: legacy-upgrade
-order: 99
+order: 110
 section: Identifiants
 ---
 
