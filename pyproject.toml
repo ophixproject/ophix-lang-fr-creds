@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ophix-lang-fr-creds"
-version = "2026.04.29.03"
+version = "2026.05.01.01"
 description = "French translation pack for ophix-creds"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -13,8 +13,8 @@ authors = [
     { name = "Ophix Project" }
 ]
 dependencies = [
-    "ophix-creds",
-    "ophix-lang-fr-server-base",
+    "ophix-creds>=2026.05.01.01",
+    "ophix-lang-fr-server-base>=2026.05.01.01",
 ]
 
 [tool.setuptools.packages.find]
