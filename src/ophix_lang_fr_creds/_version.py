@@ -1,1 +1,2 @@
-__version__ = "2026.05.01.01"
+__version__ = "2026.06.01.01"
+__package_name__ = "ophix-lang-fr-creds"
